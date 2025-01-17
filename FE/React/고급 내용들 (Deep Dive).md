@@ -196,3 +196,6 @@ setPerson((*person*) \=\> ({
   - useContext: [useContext – React](https://ko.react.dev/reference/react/useContext)
 
 #### Props Driling
+
+- 컴포넌트 트리에서 데이터를 하위 컴포넌트로 전달하기 위해 중간 컴포넌트를 통해 프로퍼티를 내려주는 것을 의미.
+- 이러한 중간 컴포넌트는 원하는 자식 컴포넌트에게 프로퍼티를 전달하기 위해 필요하지만 해당 값을 직접 사용하지 않는 경우에도 프로퍼티를 받고 전달
