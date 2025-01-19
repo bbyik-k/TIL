@@ -181,18 +181,18 @@ setPerson((*person*) \=\> ({
 - From input 같은 경우 키보드 입력 값 하나하나에 대해 리렌더링이 일어날 경우 성능 저하
   - UI 일부에 대해 리렌더링 지연하기
   - useDeferredValue Hook
-  - Ref: [useDeferredValue – React](https://ko.react.dev/reference/react/useDeferredValue#deferring-re-rendering-for-a-part-of-the-ui)
+  - Reference: [useDeferredValue – React](https://ko.react.dev/reference/react/useDeferredValue#deferring-re-rendering-for-a-part-of-the-ui)
 
 #### children
 
 - JSX 태그 내 콘텐츠 중첩
-- Ref
+- Reference
   - 자식을 JSX로 전달하기: [컴포넌트에 props 전달하기 – React](https://ko.react.dev/learn/passing-props-to-a-component#passing-jsx-as-children)
   - (레거시) children API: [Children – React](https://ko.react.dev/reference/react/Children)
 
 #### Context
 
-- Ref
+- Reference
   - useContext: [useContext – React](https://ko.react.dev/reference/react/useContext)
 
 #### Props Driling
