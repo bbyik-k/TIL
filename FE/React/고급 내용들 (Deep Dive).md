@@ -199,3 +199,33 @@ setPerson((*person*) \=\> ({
 
 - 컴포넌트 트리에서 데이터를 하위 컴포넌트로 전달하기 위해 중간 컴포넌트를 통해 프로퍼티를 내려주는 것을 의미.
 - 이러한 중간 컴포넌트는 원하는 자식 컴포넌트에게 프로퍼티를 전달하기 위해 필요하지만 해당 값을 직접 사용하지 않는 경우에도 프로퍼티를 받고 전달
+
+## 25\. 01\. 20 (월)
+
+#### memo
+
+- 컴포넌트 자체를 memo로 감싸기
+
+```js
+const Button = memo(({ text, onClick }) => {});
+```
+
+#### useMemo
+
+- 성능개선: 한 번만 실행
+
+```js
+const result = useMemo(() => calculateSomething(), []);
+```
+
+#### useCallback
+
+- onClick handle 함수 연결
+
+```javascript
+const handleUpdate = useCallback(() => {
+  const prev = prompt(`누구의 이름을 바꾸고 싶은가요?`);
+  const current = prompt(`이름을 무엇으로 바꾸고 싶은가요?`);
+  dispatch({ type: 'updated', prev, current });
+}, []);
+```
