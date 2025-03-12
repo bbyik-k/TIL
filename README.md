@@ -2,7 +2,7 @@
 
 ## 📌 개요
 
-이 저장소는 DevOps, 아키텍처, 프로그래밍 등 다양한 개발 관련 지식을 체계적으로 정리하기 위한 TIL(Today I Learned) 저장소입니다. 각 디렉토리는 관련된 기술과 개념을 정리하는 공간입니다.
+이 저장소는 프론트엔드 관련 학습 내용과 DevOps, 아키텍처, 프로그래밍 등 다양한 개발 관련 지식을 체계적으로 정리하기 위한 TIL(Today I Learned) 저장소입니다. 각 디렉토리는 관련된 기술과 개념을 정리하는 공간입니다.
 
 ---
 
@@ -12,11 +12,11 @@
 [TIL]
   ├── DevOps/
   │     ├── Configuration_Management/   # 형상관리 (CM)
-  │     │     ├── Version_Control/      # 버전관리 ✅ Git, SVN
-  │     │     ├── Deployment/           # 배포 ✅ Docker, Kubernetes
-  │     │     ├── Build_Tools/          # 빌드 ✅ Jenkins, Gradle
-  │     │     ├── Configuration_as_Code/ # IaC ✅ Terraform, Ansible
-  │     │     ├── Documentation/        # 문서관리 ✅ API 문서, 다이어그램
+  │     │     ├── Version_Control/      # 버전관리: Git, SVN
+  │     │     ├── Deployment/           # 배포: Docker, Kubernetes
+  │     │     ├── Build_Tools/          # 빌드: Jenkins, Gradle
+  │     │     ├── Configuration_as_Code/ # IaC: Terraform, Ansible
+  │     │     ├── Documentation/        # 문서관리: API 문서, 다이어그램
   │
   │     ├── CI_CD/                      # 지속적 통합 & 배포 자동화
   │     │     ├── GitHub_Actions/       # GitHub Actions
@@ -65,6 +65,7 @@
   │     │     ├── Integration_Testing/   # 통합 테스트
   │     │     ├── Mocking/               # 테스트용 Mock 활용
   │     │     ├── BDD/                   # 행동 주도 개발 (BDD)
+  │     │     │
 ```
 
 ---
@@ -95,7 +96,7 @@
 
 🔹 프론트엔드, 백엔드, 데이터베이스, 알고리즘 등을 정리하는 공간입니다.
 
-- **Frontend**: React, Vue, JavaScript 관련 정리
+- **Frontend**: React, Next.js, TypeScript, Vue, JavaScript 관련 정리
 - **Backend**: Node.js, Spring, Django 등 백엔드 개발 관련 내용
 - **Database**: SQL, NoSQL 관련 개념 정리
 - **Algorithms**: 자료구조 및 알고리즘 학습 정리
@@ -104,7 +105,7 @@
 
 ## ✅ **목표**
 
-✔ DevOps, 아키텍처, 프로그래밍 관련 지식을 체계적으로 정리합니다.  
+✔ 프론트엔드 학습을 중점으로 하여, DevOps, 아키텍처, 프로그래밍 관련 지식을 체계적으로 정리합니다.  
 ✔ 학습한 내용을 저장하고, GitHub을 통해 지속적으로 업데이트합니다.  
 ✔ 프로젝트 및 실무에서 활용할 수 있도록 개념과 실습을 함께 기록합니다.
 
