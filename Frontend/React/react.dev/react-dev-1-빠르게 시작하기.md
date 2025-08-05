@@ -1,5 +1,7 @@
 # React.dev-docs-1-빠르게 시작하기
 
+[REACT 학습하기 > 빠르게 시작하기](https://ko.react.dev/learn)
+
 ## Goal
 
 - 컴포넌트를 만들고 중첩하는 방법 학습

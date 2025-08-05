@@ -1,5 +1,7 @@
 # React.dev-docs-2-자습서: 틱택토
 
+[REACT 학습하기 > 빠르게 시작하기 > 자습서: 틱택토 게임](https://ko.react.dev/learn/tutorial-tic-tac-toe)
+
 ## Goal
 
 - React 기초: 컴포넌트, props, state의 핵심 이해
