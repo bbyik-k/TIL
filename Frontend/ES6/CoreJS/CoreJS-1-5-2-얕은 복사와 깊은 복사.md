@@ -35,7 +35,9 @@ JSON.stringify / JSON.parse 방식은 간단한 깊은 복사처럼 보이지만
 
 - `hasOwnProperty` 메서드를 활용한 `프로토타입 체이닝`을 통해 상속된 프로퍼티를 복사하지 않게끔 할 수 있음
 - `ES5`의 `getter`/`setter`를 복사하는 방법은  
-  `ES6`의 Object.getOwnPropertyDescriptor 또는 ES2017dml Object.getOwnPropertyDescriptors 외에 마땅한 방법이 존재하지 않음.
+  `ES6`의 `Object.getOwnPropertyDescriptor` 또는 ES2017의 `Object.getOwnPropertyDescriptors` 외에 마땅한 방법이 존재하지 않음.
+
+> [getOwnPropertyDescriptor란?](../getOwnPropertyDescriptor란?.md.md)
 
 ## 언제 문제가 되는가 / 언제 쓰는가
 
